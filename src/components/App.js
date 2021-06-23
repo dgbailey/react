@@ -93,6 +93,7 @@ class App extends Component {
   }
 
   checkout() {
+    //adding new commit
     Sentry.addBreadcrumb({
       category: 'cart',
       message: 'User clicked on Checkout',

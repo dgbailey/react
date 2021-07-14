@@ -22,6 +22,7 @@ const monify = n => (n / 100).toFixed(2);
 const getUniqueId = () => '_' + Math.random().toString(36).substr(2, 9);
 
 class App extends Component {
+  //web comment
   constructor(props) {
     super(props);
     this.state = {

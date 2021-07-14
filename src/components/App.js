@@ -95,6 +95,7 @@ class App extends Component {
 
   checkout() {
     //another web based commit
+    //another experiment
    throw Error('new type')
     Sentry.addBreadcrumb({
       category: 'cart',

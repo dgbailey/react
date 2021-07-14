@@ -12,7 +12,7 @@ import reducer from './store/reducers/app';
 const store = createStore(
   reducer,
   applyMiddleware(logger)
-);
+);//changing unrelated file
 
 
 ReactDOM.render(<Provider store={store}><App /></Provider> , document.getElementById('root'));

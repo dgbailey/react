@@ -93,7 +93,7 @@ class App extends Component {
   }
 
   checkout() {
-   
+   throw Errow('new type')
     Sentry.addBreadcrumb({
       category: 'cart',
       message: 'User clicked on Checkout',

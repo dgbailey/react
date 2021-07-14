@@ -94,6 +94,7 @@ class App extends Component {
 
   checkout() {
     //introduce bug
+    callfunction();
     Sentry.addBreadcrumb({
       category: 'cart',
       message: 'User clicked on Checkout',

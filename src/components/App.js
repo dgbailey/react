@@ -93,8 +93,7 @@ class App extends Component {
   }
 
   checkout() {
-    //introduce bug
-    throw Error('hello');
+   
     Sentry.addBreadcrumb({
       category: 'cart',
       message: 'User clicked on Checkout',

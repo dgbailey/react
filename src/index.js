@@ -12,7 +12,8 @@ import reducer from './store/reducers/app';
 const store = createStore(
   reducer,
   applyMiddleware(logger)
-);//updating difffernt file
+);
+
 
 ReactDOM.render(<Provider store={store}><App /></Provider> , document.getElementById('root'));
 

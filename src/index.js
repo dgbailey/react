@@ -13,8 +13,7 @@ const store = createStore(
   reducer,
   applyMiddleware(logger)
 );//changing unrelated file
-///testing email linking
-//adding
+
 
 
 ReactDOM.render(<Provider store={store}><App /></Provider> , document.getElementById('root'));

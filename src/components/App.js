@@ -67,7 +67,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    //web based edit
+    //web based edit 2
     const defaultError = window.onerror;
     window.onerror = error => {
       this.setState({ hasError: true, success: false });

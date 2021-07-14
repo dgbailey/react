@@ -12,7 +12,7 @@ import reducer from './store/reducers/app';
 const store = createStore(
   reducer,
   applyMiddleware(logger)
-);//new change
+);//new change without prefix
 
 
 
